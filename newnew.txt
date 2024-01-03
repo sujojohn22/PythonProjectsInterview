@@ -1,0 +1,209 @@
+   1  clear
+    2  mkdir Eshwar
+    3  ls
+    4  mkdir Vanitha Salman Chaitanya
+    5  ls
+    6  ll
+    7  clear
+    8  ls
+    9  mkdir Chaitanya/chaitu1
+   10  ls
+   11  pwd
+   12  ls
+   13  cd Chaitanya/
+   14  ls
+   15  mkdir chaitu2 chaitu3 chaitu4
+   16  ls
+   17  mkdir chaitu1/chaitusub
+   18  ls
+   19  cd chaitu1
+   20  ls
+   21  cd chaitusub/
+   22  ls
+   23  pwd
+   24  cd
+   25  ls
+   26  clear
+   27  ls
+   28  cd Chaitanya/chaitu1/chaitusub/
+   29  cd ..
+   30  ls
+   31  cd chaitusub/
+   32  ls
+   33  clear
+   34  cd ../../
+   35  cd chaitu1
+   36  cd chaitusub/
+   37  ls
+   38  cd /home/ubuntu/Chaitanya/
+   39  cd /Chaitanya/chaitu1/chaitusub
+   40  cd /chaitu1/chaitusub
+   41  cd chaitu1/chaitusub
+   42  cd
+   43  cd Chaitanya/
+   44  cd.
+   45  cd
+   46  ls
+   47  clear
+   48  ls
+   49  touch ali.txt
+   50  ls
+   51  echo "Hey Everyone! We are doing good, you guys are fantastic." > echo.txt
+   52  ls
+   53  cat ali.txt
+   54  cat echo.txt
+   55  echo "WE are learning echo method of creating a file in linux" > echo.txt
+   56  cat echo.txt
+   57  echo "data was previously remove, but what about this time" >> echo.txt
+   58  ls
+   59  cat echo.txt
+   60  cat
+   61  clear
+   62  ls
+   63  cat > filecat.txt
+   64  ls
+   65  cat filecat.txt
+   66  clear
+   67  ls
+   68  nano filenano.txt
+   69  ls
+   70  nano ali.txt
+   71  nano echo.txt
+   72  touch a.txt b.txt c.txt
+   73  ls
+   74  cp a.txt Eshwar/
+   75  ls
+   76  cd Eshwar/
+   77  ls
+   78  cd
+   79  ls
+   80  cp ali.txt Chaitanya/chaitu1/chaitusub/
+   81  cd Chaitanya/chaitu1/chaitusub/
+   82  ls
+   83  cd
+   84  ls
+   85  mv b.txt Salman/
+   86  ls
+   87  ls Salman/
+   88  ls
+   89  mv c.txt Chaitanya/chaitu1/chaitusub/
+   90  ls
+   91  mv ali.txt touch.txt
+   92  ls
+   93  cat touch.txt
+   94  clear
+   95  ls
+   96  mv a.txt Salman
+   97  ls
+   98  mv echo.txt salman.txt
+   99  ls
+  100  rmdir Vanitha/
+  101  ls
+  102  rmdir Salman/
+  103  rm touch.txt
+  104  ls
+  105  rm Salman/
+  106  rm -r Salman/
+  107  ls
+  108  rm *.txt
+  109  ls
+  110  touch a.txt b.txt c.txt
+  111  ls
+  112  rm -r *
+  113  ls
+  114  history
+  115  clear
+  116  man rm
+  117  man mkdir
+  118  who
+  119  whoami
+  120  date
+  121  time
+  122  clear
+  123  sudo su
+  124  clear
+  125  apt-get update
+  126  sudo apt-get update
+  127  clear
+  128  sudo apt-get install apache2
+  129  sudo service apache2 status
+  130  sudo service apache stop
+  131  sudo service apache2 stop
+  132  sudo service apache2 status
+  133  sudo service apache2 start
+  134  clear
+  135  sudo su
+  136  ajay
+  137  sudo ajay
+  138  source ~/.bashrc
+  139  ajay
+  140  sudo su
+  141  jothi
+  142  sudo nano ~/.bashrc
+  143  ls
+  144  sudo su
+  145  clear
+  146  ps
+  147  ps -e
+  148  clear
+  149  ps -e| grep cron
+  150  ps -e| grep apache
+  151  nano report.txt
+  152  grep hello report.txt
+  153  grep -i hello report.txt
+  154  grep -w hello report.txt
+  155  grep -v hello report.txt
+  156  man grep
+  157  ping facebook.com
+  158  clear
+  159  ping google.com
+  160  nslookup yahoo.com
+  161  top
+  162  apt list --installed
+  163  apt list --installed |grep apache
+  164  apt list --installed |grep apache2
+  165  clear
+  166  ls
+  167  clea
+  168  clear
+  169  sudo apt-get update
+  170  ls
+  171  nano report.txt
+  172  ls
+  173  clear
+  174  nano report.txt
+  175  cat report.txt
+  176  awk '{print $0}' report.txt
+  177  clear
+  178  awk '{print $0}' report.txtjay manager account 45000
+  179  sunil clerk account 25000
+  180  varun manage
+  181  clear
+  182  awk '{print $0}' report.txt
+  183  awk '{print $1}' report.txt
+  184  awk '{print $4}' report.txt
+  185  awk '{print $1,$2,$3}' report.txt
+  186  awk '{print $3,$2,$1}' report.txt
+  187  awk '{print $0}' report.txt
+  188  clear
+  189  awk '{print $0}' report.txt
+  190  awk '{print NR}' report.txt
+  191  awk '{print NR,$0}' report.txt
+  192  awk '{print NR,NF}' report.txt
+  193  nano report.txt
+  194  awk '{print NR,NF}' report.txt
+  195  clear
+  196  cat report.txt
+  197  awk '{print NR,$0}' report.txt
+  198  awk '{if(NR==2)print $0}' report.txt
+  199  awk 'NR==3, NR==6 {print NR,$0}' report.txt
+  200  ls
+  201  ls -al
+  202  clear
+  203  ls
+  204  mv report.txt .report.txt
+  205  ls
+  206  ls -al
+  207  mv .report.txt report.txt
+  208  ls
+  209  history
